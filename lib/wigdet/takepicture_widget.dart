@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_plugin_pubdev/wigdet/displaypicture_screen.dart';
 
 class TakepictureScreen extends StatefulWidget {
   const TakepictureScreen({
@@ -59,7 +60,7 @@ class TakepictureScreenState extends State<TakepictureScreen> {
             await Navigator.of(context).push(
               MaterialPageRoute(
                 builder: (context)=> DisplayPictureScreen(
-                  imagePath: iamge.path,
+                  imagePath: image.path,
                 )
               )
             );

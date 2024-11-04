@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/wigdet/filter_selector.dart';
+import 'package:flutter_plugin_pubdev/wigdet/filter_selector.dart';
 
 @immutable
 class PhotoFilterCarousel extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_application_1/wigdet/filter_flowdelegate.dart';
-import 'package:flutter_application_1/wigdet/filter_item.dart';
+import 'package:flutter_plugin_pubdev/wigdet/filter_flowdelegate.dart';
+import 'package:flutter_plugin_pubdev/wigdet/filter_item.dart';
 
 @immutable
 class FilterSelector extends StatefulWidget {
