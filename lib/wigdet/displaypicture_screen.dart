@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_plugin_pubdev/widget/filter_selector.dart';
+import 'package:flutter_plugin_pubdev/wigdet/filter_selector.dart';
+
 
 class DisplayPictureScreen extends StatefulWidget {
   final String imagePath;
